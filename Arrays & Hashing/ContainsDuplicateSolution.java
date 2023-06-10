@@ -21,8 +21,13 @@ class ContainsDuplicateSolution {
 
     // Logic 2: Hashset
     public boolean containsDuplicate(int[] nums) {
+        // Declare Set
         HashSet<Integer> set = new HashSet<Integer>();
 
+        // Add element in set
+        for (int i : nums) {
+            set.add(i);
+        }
         return false;
     }
 
