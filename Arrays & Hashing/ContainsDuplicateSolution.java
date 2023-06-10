@@ -4,8 +4,10 @@
  */
 class ContainsDuplicateSolution {
     public boolean containsDuplicate(int[] nums) {
+        for (int i : nums) {
+            
+        }
         return false;
-        
     }
 
     // Test
