@@ -2,6 +2,9 @@
  * Given an integer array nums, return true if any value appears at least twice in the array, 
  * and return false if every element is distinct.
  */
+
+import java.util.HashSet;
+
 class ContainsDuplicateSolution {
     // Logic 1: Here the time complexcity is O(n^2). Need to make it faster!
     // public boolean containsDuplicate(int[] nums) {
@@ -18,13 +21,8 @@ class ContainsDuplicateSolution {
 
     // Logic 2: Hashset
     public boolean containsDuplicate(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] == nums[j]){
-                    return true;
-                }
-            }        
-        }
+        HashSet<Integer> set = new HashSet<Integer>();
+
         return false;
     }
 
