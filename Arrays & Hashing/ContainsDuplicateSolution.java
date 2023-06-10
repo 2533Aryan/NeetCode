@@ -4,8 +4,11 @@ class ContainsDuplicateSolution {
         
     }
 
+    // Test
     public static void main(String[] args) {
-        int[] input = [1, 2 , 3];
-                
+        
+        // Input 1
+        int[] input = {1,2,3};
+                        
     }
 }
