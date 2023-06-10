@@ -28,11 +28,12 @@ class ContainsDuplicateSolution {
         for (int i : nums) {
             set.add(i);
         }
-
+        
+        // Compare length
         if (set.size() != nums.length) {
             return true;
         }
-        
+
         return false;
     }
 
