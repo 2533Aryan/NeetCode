@@ -6,6 +6,7 @@
 import java.util.HashSet;
 
 class ContainsDuplicateSolution {
+
     // Logic 1: Here the time complexcity is O(n^2). Need to make it faster!
     // public boolean containsDuplicate(int[] nums) {
     //     for (int i = 0; i < nums.length; i++) {
@@ -19,7 +20,7 @@ class ContainsDuplicateSolution {
     // }
 
 
-    // Logic 2: Hashset
+    // Logic 2: Hashset (uniqueness property - duplicate elements will be eliminated)
     public boolean containsDuplicate(int[] nums) {
         // Declare Set
         HashSet<Integer> set = new HashSet<Integer>();
