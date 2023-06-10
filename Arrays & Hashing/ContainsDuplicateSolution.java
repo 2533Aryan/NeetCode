@@ -3,16 +3,29 @@
  * and return false if every element is distinct.
  */
 class ContainsDuplicateSolution {
-    public boolean containsDuplicate(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] == nums[j]){
-                    return true;
-                }
-            }        
-        }
-        return false;
-    }
+    // Logic 1: Here the time complexcity is O(n^2). Need to make it faster!
+    // public boolean containsDuplicate(int[] nums) {
+    //     for (int i = 0; i < nums.length; i++) {
+    //         for (int j = i+1; j < nums.length; j++) {
+    //             if (nums[i] == nums[j]){
+    //                 return true;
+    //             }
+    //         }        
+    //     }
+    //     return false;
+    // }
+
+    
+        // public boolean containsDuplicate(int[] nums) {
+    //     for (int i = 0; i < nums.length; i++) {
+    //         for (int j = i+1; j < nums.length; j++) {
+    //             if (nums[i] == nums[j]){
+    //                 return true;
+    //             }
+    //         }        
+    //     }
+    //     return false;
+    // }
 
     // Test
     public static void main(String[] args) {
