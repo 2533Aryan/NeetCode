@@ -11,10 +11,10 @@ class ContainsDuplicateSolution {
 
         // Input 1
         int[] input1 = {1,2,3};
-        test.containsDuplicate(input1);
+        System.out.println(test.containsDuplicate(input1));
         
         // Input 1
         int[] input2 = {1,2,3,1};      
-        test.containsDuplicate(input2);                  
+        System.out.println(test.containsDuplicate(input2));
     }
 }
