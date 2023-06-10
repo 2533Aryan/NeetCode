@@ -16,7 +16,7 @@ class ContainsDuplicateSolution {
     // }
 
 
-    // Logic 2
+    // Logic 2: Hashset
     public boolean containsDuplicate(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i+1; j < nums.length; j++) {
@@ -28,7 +28,7 @@ class ContainsDuplicateSolution {
         return false;
     }
 
-    
+
     // Test
     public static void main(String[] args) {
         // Test Class
