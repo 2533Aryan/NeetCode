@@ -5,7 +5,12 @@
 class ContainsDuplicateSolution {
     public boolean containsDuplicate(int[] nums) {
         for (int i : nums) {
-            
+            for (int j = 0; j < nums.length; j++) {
+                if (i == j){
+                    System.out.println(i);
+                    System.out.println(j);
+                }
+            }        
         }
         return false;
     }
@@ -17,7 +22,7 @@ class ContainsDuplicateSolution {
 
         // Input 1
         int[] input1 = {1,2,3};
-        System.out.println(test.containsDuplicate(input1));
+        // System.out.println(test.containsDuplicate(input1));
         
         // Input 1
         int[] input2 = {1,2,3,1};      
