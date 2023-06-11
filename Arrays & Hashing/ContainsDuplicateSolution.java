@@ -38,7 +38,7 @@ class ContainsDuplicateSolution {
         return false;
     }
 
-    
+
     // Logic 3: using dictionary
     // probably will be slower than O(n)
 
