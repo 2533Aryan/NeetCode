@@ -38,7 +38,8 @@ class ContainsDuplicateSolution {
         return false;
     }
 
-
+    // Logic 3
+    
     // Test
     public static void main(String[] args) {
         // Test Class
