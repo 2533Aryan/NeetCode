@@ -39,7 +39,7 @@ class ContainsDuplicateSolution {
     }
 
     // Logic 3: using dictionary
-
+    // probably will be slower than O(n)
 
     // Test
     public static void main(String[] args) {
