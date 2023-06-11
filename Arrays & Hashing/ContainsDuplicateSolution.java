@@ -38,8 +38,8 @@ class ContainsDuplicateSolution {
         return false;
     }
 
-    // Logic 3
-    
+    // Logic 3: using dictionary
+
 
     // Test
     public static void main(String[] args) {
