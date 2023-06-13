@@ -28,7 +28,7 @@ public class ValidAnagramSolution {
         tArray.sort(null);
 
         // Compares strings ad return true if strings represents the same sequence of characters
-        if (s.equals(t)) {
+        if (sArray.equals(tArray)) {
             return true;
         }
         
