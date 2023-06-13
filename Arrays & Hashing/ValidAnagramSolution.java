@@ -10,11 +10,19 @@ public class ValidAnagramSolution {
         } 
         
         // Logic 1: Arraylist
+
+        // Array for String s
         ArrayList<Character> sArray = new ArrayList<Character>(); 
         for (int i = 0; i < s.length(); i++) {
             sArray.add(s.charAt(i));
         }
 
+        // Array for String t
+        ArrayList<Character> tArray = new ArrayList<Character>(); 
+        for (int i = 0; i < t.length(); i++) {
+            tArray.add(t.charAt(i));
+        }
+        
         // Compares strings ad return true if strings represents the same sequence of characters
         if (s.equals(t)) {
             return true;
