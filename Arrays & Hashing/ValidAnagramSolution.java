@@ -7,6 +7,17 @@ public class ValidAnagramSolution {
     public static void main(String[] args) {
         ValidAnagramSolution solution = new ValidAnagramSolution();
         
-        solution.isAnagram(null, null);
+        // Test 1
+        String s1 = "anagram";
+        String t1 = "nagaram";
+
+        System.out.println(solution.isAnagram(s1, t1));
+
+                // Test 1
+        String s1 = "anagram";
+        String t1 = "nagaram";
+
+        System.out.println(solution.isAnagram(s1, t1));
+
     }
 }
