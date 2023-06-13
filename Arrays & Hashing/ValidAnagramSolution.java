@@ -13,11 +13,11 @@ public class ValidAnagramSolution {
 
         System.out.println(solution.isAnagram(s1, t1));
 
-                // Test 1
-        String s1 = "anagram";
-        String t1 = "nagaram";
+        // Test 2
+        String s2 = "rat";
+        String t2 = "car";
 
-        System.out.println(solution.isAnagram(s1, t1));
+        System.out.println(solution.isAnagram(s2, t2));
 
     }
 }
