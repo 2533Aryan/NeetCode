@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
 
@@ -6,8 +9,9 @@ public class ValidAnagramSolution {
             return false;
         } 
         
+        ArrayList sArray; 
         for (int i = 0; i < s.length(); i++) {
-            System.out.println(s.charAt(i));   
+            sArray.add(sArray);
         }
 
         // Compares strings ad return true if strings represents the same sequence of characters
