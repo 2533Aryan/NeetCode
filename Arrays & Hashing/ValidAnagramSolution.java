@@ -1,10 +1,10 @@
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
-        for ( i : s.chars()) {
-            
+
+        for (int i = 0; i < s.length(); i++) {
+            System.out.println(s.charAt(i));   
         }
-        
-        System.out.println();
+
         // Compares strings ad return true if strings represents the same sequence of characters
         if (s.equals(t)) {
             return true;
