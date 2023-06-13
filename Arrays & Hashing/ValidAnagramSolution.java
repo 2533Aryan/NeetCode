@@ -1,5 +1,10 @@
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
+        
+        if (s.equals(t)) {
+            return true;
+        }
+        
         return false;
     }    
 
