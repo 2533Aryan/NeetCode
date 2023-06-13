@@ -39,7 +39,6 @@ class ContainsDuplicateSolution {
     }
 
 
-    // Logic 3: using dictionary
     
 
     // Test
