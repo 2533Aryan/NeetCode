@@ -9,9 +9,9 @@ public class ValidAnagramSolution {
             return false;
         } 
         
-        ArrayList sArray; 
+        ArrayList<Character> sArray = new ArrayList<Character>(); 
         for (int i = 0; i < s.length(); i++) {
-            sArray.add(sArray);
+            sArray.add(s.charAt(i));
         }
 
         // Compares strings ad return true if strings represents the same sequence of characters
