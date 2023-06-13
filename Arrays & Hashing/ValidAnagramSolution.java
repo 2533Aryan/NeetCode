@@ -9,6 +9,7 @@ public class ValidAnagramSolution {
             return false;
         } 
         
+        // Logic 1: Arraylist
         ArrayList<Character> sArray = new ArrayList<Character>(); 
         for (int i = 0; i < s.length(); i++) {
             sArray.add(s.charAt(i));
