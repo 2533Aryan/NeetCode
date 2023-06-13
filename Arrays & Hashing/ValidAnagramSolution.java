@@ -6,6 +6,7 @@ public class ValidAnagramSolution {
             return true;
         }
         
+        // Not anagram
         return false;
     }    
 
