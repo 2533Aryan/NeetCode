@@ -1,6 +1,11 @@
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
 
+        // if not equal length, then not anagram
+        if (s.length() != t.length()){
+            return false;
+        } 
+        
         for (int i = 0; i < s.length(); i++) {
             System.out.println(s.charAt(i));   
         }
