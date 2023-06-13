@@ -25,6 +25,5 @@ public class ValidAnagramSolution {
         String t2 = "car";
 
         System.out.println(solution.isAnagram(s2, t2));
-
     }
 }
