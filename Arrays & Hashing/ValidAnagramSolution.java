@@ -1,6 +1,7 @@
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
         
+        // Compares strings ad return true if strings represents the same sequence of characters
         if (s.equals(t)) {
             return true;
         }
