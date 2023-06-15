@@ -50,6 +50,10 @@ public class TwoSumSolution {
         // Test 3
         int[] nums3 = {3,3};
         int target3 = 6;
-        System.out.println(test.twoSum(nums3, target3));
+        // Print Test
+        int[] arrayTest3 = test.twoSum(nums3, target3);
+        System.out.print(arrayTest3[0]);
+        System.out.print(" ");
+        System.out.print(arrayTest3[1]);
     }
 }
