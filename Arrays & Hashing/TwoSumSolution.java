@@ -23,7 +23,17 @@ public class TwoSumSolution {
         // Logic 2: Double for loops 
         for (int i = 0; i < nums.length-1; i++) {
             for (int j = i+1; j < nums.length; j++) {
+                // Declare values
+                sumArray[0] = i;
+                sumArray[1] = j;
+                
+                // Two sum
+                int twoSum = nums[i] + nums[i+1];
 
+                // Find the target
+                if (twoSum == target){
+                    return sumArray;        
+                }                                     
             }
         }
         
@@ -31,6 +41,7 @@ public class TwoSumSolution {
         return null;
     }
     
+
     // Testing
     public static void main(String[] args) {
         // Test Class        
