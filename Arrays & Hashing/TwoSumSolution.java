@@ -39,7 +39,7 @@ public class TwoSumSolution {
         
         // Logic 3: Hashmap
 
-        
+
         // Return the output
         return null;
     }
@@ -82,4 +82,3 @@ public class TwoSumSolution {
         System.out.print(arrayTest3[1]);
     }
 }
-
