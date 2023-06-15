@@ -21,6 +21,6 @@ public class TwoSumSolution {
         // Test 3
         int[] nums3 = {3,3};
         int target3 = 6;
-        System.out.println(test.twoSum(nums1, target1));
+        System.out.println(test.twoSum(nums3, target3));
     }
 }
