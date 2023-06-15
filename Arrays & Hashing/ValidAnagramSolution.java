@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/*
+ * Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+ */
 public class ValidAnagramSolution {
     public boolean isAnagram(String s, String t) {
 
