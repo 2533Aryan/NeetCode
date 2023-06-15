@@ -37,6 +37,9 @@ public class TwoSumSolution {
             }
         }
         
+        // Logic 3: Hashmap
+
+        
         // Return the output
         return null;
     }
