@@ -38,6 +38,7 @@ public class ValidAnagramSolution {
         return false;
     }    
 
+
     // Testing
     public static void main(String[] args) {
         ValidAnagramSolution solution = new ValidAnagramSolution();
@@ -55,3 +56,4 @@ public class ValidAnagramSolution {
         System.out.println(solution.isAnagram(s2, t2));
     }
 }
+
