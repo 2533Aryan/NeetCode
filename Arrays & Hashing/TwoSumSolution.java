@@ -8,11 +8,11 @@ public class TwoSumSolution {
         
         for (int i = 0; i < nums.length-1; i++) {
             // Declare values
-            sumArray[0] = nums[i];
-            sumArray[1] = nums[i+1];              
+            sumArray[0] = i;
+            sumArray[1] = i+1;              
 
             // Two sum
-            int twoSum = sumArray[0] + sumArray[1];
+            int twoSum = nums[i] + nums[i+1];
 
             // Find the target
             if (twoSum == target){
@@ -50,7 +50,7 @@ public class TwoSumSolution {
         System.out.print(arrayTest2[1]);
         
         System.out.println();
-        
+
         // Test 3
         int[] nums3 = {3,3};
         int target3 = 6;
