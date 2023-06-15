@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class TwoSumSolution {
     // Logic 1: 
     public int[] twoSum(int[] nums, int target) {
@@ -68,3 +66,4 @@ public class TwoSumSolution {
         System.out.print(arrayTest3[1]);
     }
 }
+
