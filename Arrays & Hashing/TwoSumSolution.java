@@ -4,6 +4,7 @@ public class TwoSumSolution {
         // Output Array
         int[] sumArray = new int[2];
         
+        // Logic 1: Only work for consecetive index
         for (int i = 0; i < nums.length-1; i++) {
             // Declare values
             sumArray[0] = i;
