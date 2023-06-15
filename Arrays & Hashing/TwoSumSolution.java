@@ -16,7 +16,7 @@ public class TwoSumSolution {
         // Test 2
         int[] nums2 = {3,2,4};
         int target2 = 6;
-        System.out.println(test.twoSum(nums1, target1));
+        System.out.println(test.twoSum(nums2, target2));
 
         // Test 3
         int[] nums3 = {3,3};
