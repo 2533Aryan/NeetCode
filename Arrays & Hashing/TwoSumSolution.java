@@ -24,11 +24,11 @@ public class TwoSumSolution {
         for (int i = 0; i < nums.length-1; i++) {
             for (int j = i+1; j < nums.length; j++) {
                 // Declare values
-                sumArray[0] = i;
-                sumArray[1] = j;
+                sumArray[0] = nums[i];
+                sumArray[1] = nums[j];
                 
                 // Two sum
-                int twoSum = nums[i] + nums[i+1];
+                int twoSum = sumArray[0] + sumArray[1];
 
                 // Find the target
                 if (twoSum == target){
