@@ -38,6 +38,8 @@ public class TwoSumSolution {
         System.out.print(" ");
         System.out.print(arrayTest1[1]);
 
+        System.out.println();
+
         // Test 2
         int[] nums2 = {3,2,4};
         int target2 = 6;
@@ -46,6 +48,8 @@ public class TwoSumSolution {
         System.out.print(arrayTest2[0]);
         System.out.print(" ");
         System.out.print(arrayTest2[1]);
+        
+        System.out.println();
         
         // Test 3
         int[] nums3 = {3,3};
