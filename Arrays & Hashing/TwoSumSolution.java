@@ -21,7 +21,7 @@ public class TwoSumSolution {
         }
         
         // Return the output
-        return sumArray;
+        return null;
     }
     
     // Testing
@@ -32,7 +32,11 @@ public class TwoSumSolution {
         // Test 1
         int[] nums1 = {2,7,11,15}; 
         int target1 = 9;
-        System.out.println(test.twoSum(nums1, target1));
+        // Print Test
+        int[] arrayTest = test.twoSum(nums1, target1);
+        System.out.print(arrayTest[0]);
+        System.out.print(" ");
+        System.out.print(arrayTest[1]);
 
         // Test 2
         int[] nums2 = {3,2,4};
