@@ -4,22 +4,23 @@ public class TwoSumSolution {
         // Output Array
         int[] sumArray = new int[2];
         
-        // Logic 1: Only work for consecetive index
-        for (int i = 0; i < nums.length-1; i++) {
-            // Declare values
-            sumArray[0] = i;
-            sumArray[1] = i+1;              
+        // Logic 1: Only work for consecutive index
+        // for (int i = 0; i < nums.length-1; i++) {
+        //     // Declare values
+        //     sumArray[0] = i;
+        //     sumArray[1] = i+1;              
 
-            // Two sum
-            int twoSum = nums[i] + nums[i+1];
+        //     // Two sum
+        //     int twoSum = nums[i] + nums[i+1];
 
-            // Find the target
-            if (twoSum == target){
-                return sumArray;        
-            }
-        }
+        //     // Find the target
+        //     if (twoSum == target){
+        //         return sumArray;        
+        //     }
+        // }
 
-        // New logic - double for loops 
+
+        // Logic 2: Double for loops 
         for (int i = 0; i < nums.length-1; i++) {
             for (int j = i+1; j < nums.length; j++) {
 
