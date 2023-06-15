@@ -1,11 +1,18 @@
+import java.util.ArrayList;
+
 public class TwoSumSolution {
+    // Logic 1: 
     public int[] twoSum(int[] nums, int target) {
-        return null;
+        // Output Array
+        int[] sumArray = new int[2];
+        
+        // Return the output
+        return sumArray;
     }
     
     // Testing
     public static void main(String[] args) {
-        
+        // Test Class        
         TwoSumSolution test = new TwoSumSolution();
         
         // Test 1
