@@ -33,16 +33,20 @@ public class TwoSumSolution {
         int[] nums1 = {2,7,11,15}; 
         int target1 = 9;
         // Print Test
-        int[] arrayTest = test.twoSum(nums1, target1);
-        System.out.print(arrayTest[0]);
+        int[] arrayTest1 = test.twoSum(nums1, target1);
+        System.out.print(arrayTest1[0]);
         System.out.print(" ");
-        System.out.print(arrayTest[1]);
+        System.out.print(arrayTest1[1]);
 
         // Test 2
         int[] nums2 = {3,2,4};
         int target2 = 6;
-        System.out.println(test.twoSum(nums2, target2));
-
+        // Print Test
+        int[] arrayTest2 = test.twoSum(nums2, target2);
+        System.out.print(arrayTest2[0]);
+        System.out.print(" ");
+        System.out.print(arrayTest2[1]);
+        
         // Test 3
         int[] nums3 = {3,3};
         int target3 = 6;
