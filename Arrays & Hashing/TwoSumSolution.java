@@ -13,5 +13,9 @@ public class TwoSumSolution {
         // Test 2
         int[] nums2 = {3,2,4};
         int target2 = 6;
+
+        // Test 3
+        int[] nums3 = {3,3};
+        int target3 = 6;
     }
 }
