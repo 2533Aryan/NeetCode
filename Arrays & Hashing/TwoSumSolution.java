@@ -6,9 +6,18 @@ public class TwoSumSolution {
         // Output Array
         int[] sumArray = new int[2];
         
-        for (int i = 0; i < nums.length; i++) {
-            sumArray[0] = i;
-            sumArray[1] = i;              
+        for (int i = 0; i < nums.length-1; i++) {
+            // Declare values
+            sumArray[0] = nums[i];
+            sumArray[1] = nums[i+1];              
+
+            // Two sum
+            int twoSum = sumArray[0] + sumArray[1];
+
+            // Find the target
+            if (twoSum == target){
+                return sumArray;        
+            }
         }
         
         // Return the output
