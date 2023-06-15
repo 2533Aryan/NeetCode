@@ -19,6 +19,13 @@ public class TwoSumSolution {
                 return sumArray;        
             }
         }
+
+        for (int i = 0; i < nums.length; i++) {
+
+            for (int j = i+1; j < nums.length; j++) {
+                
+            }
+        }
         
         // Return the output
         return null;
