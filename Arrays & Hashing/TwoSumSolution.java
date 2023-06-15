@@ -6,11 +6,11 @@ public class TwoSumSolution {
         // Output Array
         int[] sumArray = new int[2];
         
-        for (int i : nums) {
+        for (int i = 0; i < nums.length; i++) {
             sumArray[0] = i;
-            sumArray[1] = i;                    
+            sumArray[1] = i;              
         }
-
+        
         // Return the output
         return sumArray;
     }
