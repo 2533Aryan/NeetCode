@@ -21,6 +21,7 @@ public class GroupAnagramsSolution {
 
     // Check is two strings are anagrams
     public boolean isAnagram(String str1, String str2){
+        
         return false;
     }        
 
@@ -33,14 +34,15 @@ public class GroupAnagramsSolution {
 
         // Test 1
         String[] strs1 = {"eat","tea","tan","ate","nat","bat"};
-        System.out.println(test.groupAnagrams(strs1));
+        test.groupAnagrams(strs1);
+        // System.out.println(test.groupAnagrams(strs1));
 
-        // Test 2
-        String[] strs2 = {""};
-        System.out.println(test.groupAnagrams(strs2));
+        // // Test 2
+        // String[] strs2 = {""};
+        // System.out.println(test.groupAnagrams(strs2));
 
-        // Test 3
-        String[] strs3 = {"a"};
-        System.out.println(test.groupAnagrams(strs3));
+        // // Test 3
+        // String[] strs3 = {"a"};
+        // System.out.println(test.groupAnagrams(strs3));
     }    
 }
