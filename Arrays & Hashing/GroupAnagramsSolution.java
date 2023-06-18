@@ -10,7 +10,7 @@ public class GroupAnagramsSolution {
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
         
-        // Function
+        // Check is it's anagram
         isAnagram(str1, str2);        
         return null;        
     }
