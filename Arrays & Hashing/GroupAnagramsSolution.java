@@ -9,7 +9,7 @@ import java.util.List;
 public class GroupAnagramsSolution {
     
     //Logic 1:
-    public List<List<String>> groupAnagrams(String[] strs) {
+    public ArrayList<String> groupAnagrams(String[] strs) {
         
         // Result
         // List<List<String>> group;
@@ -49,7 +49,7 @@ public class GroupAnagramsSolution {
         // // Check is it's anagram
         // System.out.println(isAnagram(str1, str2));        
         
-        return null;        
+        return completeSets;        
     }
 
 
@@ -97,8 +97,7 @@ public class GroupAnagramsSolution {
 
         // Test 1
         String[] strs1 = {"eat","tea","tan","ate","nat","bat"};
-        test.groupAnagrams(strs1);
-        // System.out.println(test.groupAnagrams(strs1));
+        System.out.println(test.groupAnagrams(strs1));
 
         // // Test 2
         // String[] strs2 = {""};
