@@ -9,9 +9,12 @@ public class GroupAnagramsSolution {
     
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
-        
+        String str1 = "eat";
+        String str2 = "tea";
+                
         // Check is it's anagram
-        isAnagram(str1, str2);        
+        System.out.println(isAnagram(str1, str2));        
+        
         return null;        
     }
 
