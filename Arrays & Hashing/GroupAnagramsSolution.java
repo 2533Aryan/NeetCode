@@ -24,10 +24,16 @@ public class GroupAnagramsSolution {
     public boolean isAnagram(String str1, String str2){
         // Character list
         ArrayList<Character> s1 = new ArrayList<Character>();
+        ArrayList<Character> s2 = new ArrayList<Character>();
 
-        // Adding values to list
+        // Adding values to s1 list
         for (int i = 0; i < str1.length(); i++) {
             s1.add(str1.charAt(i));
+        }
+
+        // Adding values to s2 list
+        for (int i = 0; i < str2.length(); i++) {
+            s2.add(str2.charAt(i));
         }
 
         return false;
