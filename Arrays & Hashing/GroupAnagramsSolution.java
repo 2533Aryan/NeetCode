@@ -15,7 +15,7 @@ public class GroupAnagramsSolution {
     // Testing
     public static void main(String[] args) {
         
-        // Class
+        // Test Class
         GroupAnagramsSolution test = new GroupAnagramsSolution();
 
         // Test 1
