@@ -11,7 +11,7 @@ public class GroupAnagramsSolution {
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
         String str1 = "eat";
-        String str2 = "tea";
+        String str2 = "tee";
                 
         // Check is it's anagram
         System.out.println(isAnagram(str1, str2));        
