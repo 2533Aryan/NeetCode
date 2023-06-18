@@ -23,9 +23,11 @@ public class GroupAnagramsSolution {
         }
 
         // one set of anagram
-        ArrayList<String> sets = new ArrayList<String>();
+
+        ArrayList<String> completeSets = new ArrayList<String>();
 
         for (int i = 0; i < allInputs.size(); i++) {
+            ArrayList<String> sets = new ArrayList<String>();
             // Add the index element
             sets.add(allInputs.get(i));
 
@@ -38,6 +40,7 @@ public class GroupAnagramsSolution {
             }
             
             allInputs.remove(i);
+            completeSets.addAll(sets);
         }
 
         // String str1 = "eat";
