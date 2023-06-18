@@ -12,7 +12,7 @@ public class GroupAnagramsSolution {
     public List<List<String>> groupAnagrams(String[] strs) {
         
         // Result
-        List<List<String>> group;
+        // List<List<String>> group;
         
         // Arraylist to store all inputs
         ArrayList<String> allInputs = new ArrayList<String>();
@@ -30,9 +30,14 @@ public class GroupAnagramsSolution {
             sets.add(allInputs.get(i));
 
             // Loop to check other elements
-            for (int j = 0; j < allInputs.size(); j++) {
-                
-            }                                    
+            for (int j = 1; j < allInputs.size(); j++) {
+                if (isAnagram(allInputs.get(i), allInputs.get(j))) {
+                    sets.add(allInputs.get(j));
+                    allInputs.remove(j);
+                }
+            }
+            
+            allInputs.remove(i);
         }
 
         // String str1 = "eat";
