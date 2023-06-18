@@ -51,7 +51,8 @@ public class GroupAnagramsSolution {
             return true;
         }
         
-        return true;
+        // Otherwise false
+        return false;
     }        
 
     
