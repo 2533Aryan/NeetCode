@@ -6,8 +6,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.swing.GrayFilter;
-
 public class GroupAnagramsSolution {
     
     //Logic 1:
@@ -15,6 +13,8 @@ public class GroupAnagramsSolution {
         
         // Result
         // List<List<String>> group;
+        
+        // Arraylist to store all inputs
         ArrayList<String> allInputs = new ArrayList<String>();
 
         // input all values into arraylist
@@ -22,8 +22,9 @@ public class GroupAnagramsSolution {
             allInputs.add(string);
         }
 
+
         for (int i = 0; i < allInputs.size(); i++) {
-            System.out.println(allInputs.get(i));
+            
         }
 
         // String str1 = "eat";
