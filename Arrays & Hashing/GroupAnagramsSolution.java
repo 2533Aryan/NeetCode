@@ -17,10 +17,9 @@ public class GroupAnagramsSolution {
         // List<List<String>> group;
         ArrayList<String> allInputs = new ArrayList<String>();
 
-        
-        // iterating strs
+        // input all values into arraylist
         for (String string : strs) {
-            
+            allInputs.add(string);
         }
 
         String str1 = "eat";
