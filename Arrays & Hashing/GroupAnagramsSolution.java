@@ -46,6 +46,11 @@ public class GroupAnagramsSolution {
         s1.sort(null);
         s2.sort(null);
         
+        // check the whole list
+        for (int i = 0; i < s1.size(); i++) {
+            
+        }
+
         return false;
     }        
 
