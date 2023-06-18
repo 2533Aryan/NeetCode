@@ -22,11 +22,15 @@ public class GroupAnagramsSolution {
             allInputs.add(string);
         }
 
-        String str1 = "eat";
-        String str2 = "tee";
+        for (int i = 0; i < allInputs.size(); i++) {
+            System.out.println(allInputs.get(i));
+        }
+
+        // String str1 = "eat";
+        // String str2 = "tee";
                 
-        // Check is it's anagram
-        System.out.println(isAnagram(str1, str2));        
+        // // Check is it's anagram
+        // System.out.println(isAnagram(str1, str2));        
         
         return null;        
     }
