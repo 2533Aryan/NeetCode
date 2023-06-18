@@ -22,6 +22,12 @@ public class GroupAnagramsSolution {
 
     // Check is two strings are anagrams
     public boolean isAnagram(String str1, String str2){
+
+        // length not same - not anagram
+        if (str1.length() != str2.length()){
+            return false;
+        }
+        
         // Character list
         ArrayList<Character> s1 = new ArrayList<Character>();
         ArrayList<Character> s2 = new ArrayList<Character>();
@@ -35,6 +41,7 @@ public class GroupAnagramsSolution {
         for (int i = 0; i < str2.length(); i++) {
             s2.add(str2.charAt(i));
         }
+
 
         return false;
     }        
