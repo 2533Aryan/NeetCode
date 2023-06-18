@@ -10,6 +10,10 @@ public class GroupAnagramsSolution {
     
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
+        
+        // Result
+        List<List<String>> group;
+
         String str1 = "eat";
         String str2 = "tee";
                 
