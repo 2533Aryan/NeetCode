@@ -3,6 +3,7 @@
  * You can return the answer in any order.
  */
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GroupAnagramsSolution {
@@ -21,7 +22,14 @@ public class GroupAnagramsSolution {
 
     // Check is two strings are anagrams
     public boolean isAnagram(String str1, String str2){
+        // Character list
+        ArrayList<E> s1;
         
+        // Adding values to list
+        for (int i = 0; i < str1.length(); i++) {
+            s1.add(str1.charAt(i));
+        }
+
         return false;
     }        
 
