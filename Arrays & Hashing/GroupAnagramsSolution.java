@@ -25,9 +25,9 @@ public class GroupAnagramsSolution {
         // Test 2
         String[] strs2 = {""};
         test.groupAnagrams(strs2);
-        
+
         // Test 3
         String[] strs3 = {"a"};
-
+        test.groupAnagrams(strs3);
     }    
 }
