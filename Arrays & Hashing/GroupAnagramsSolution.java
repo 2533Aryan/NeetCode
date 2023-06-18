@@ -42,7 +42,10 @@ public class GroupAnagramsSolution {
             s2.add(str2.charAt(i));
         }
 
-
+        // Sort lists
+        s1.sort(null);
+        s2.sort(null);
+        
         return false;
     }        
 
