@@ -23,10 +23,10 @@ public class GroupAnagramsSolution {
         }
 
         // one set of anagram
-        String[] sets;
-        
-        for (int i = 0; i < allInputs.size(); i++) {
+        List<String> sets;
 
+        for (int i = 0; i < allInputs.size(); i++) {
+            
         }
 
         // String str1 = "eat";
