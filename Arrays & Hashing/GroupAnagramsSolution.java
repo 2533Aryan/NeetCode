@@ -15,7 +15,10 @@ public class GroupAnagramsSolution {
         
         // Result
         // List<List<String>> group;
+        ArrayList<String> allInputs = new ArrayList<String>();
 
+        
+        // iterating strs
         for (String string : strs) {
             
         }
