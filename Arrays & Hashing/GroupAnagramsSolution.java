@@ -6,13 +6,19 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.swing.GrayFilter;
+
 public class GroupAnagramsSolution {
     
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
         
         // Result
-        List<List<String>> group;
+        // List<List<String>> group;
+
+        for (String string : strs) {
+            
+        }
 
         String str1 = "eat";
         String str2 = "tee";
