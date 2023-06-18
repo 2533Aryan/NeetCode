@@ -21,10 +21,11 @@ public class GroupAnagramsSolution {
         // Test 1
         String[] strs1 = {"eat","tea","tan","ate","nat","bat"};
         test.groupAnagrams(strs1);
-        
+
         // Test 2
         String[] strs2 = {""};
-
+        test.groupAnagrams(strs2);
+        
         // Test 3
         String[] strs3 = {"a"};
 
