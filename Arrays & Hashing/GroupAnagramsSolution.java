@@ -9,8 +9,18 @@ public class GroupAnagramsSolution {
     
     //Logic 1:
     public List<List<String>> groupAnagrams(String[] strs) {
+        
+        // Function
+        isAnagram(str1, str2);        
         return null;        
     }
+
+
+    // Check is two strings are anagrams
+    public boolean isAnagram(String str1, String str2){
+        return false;
+    }        
+
     
     // Testing
     public static void main(String[] args) {
