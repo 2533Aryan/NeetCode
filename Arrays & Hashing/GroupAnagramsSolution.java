@@ -15,9 +15,13 @@ public class GroupAnagramsSolution {
     // Testing
     public static void main(String[] args) {
         
+        // Class
+        GroupAnagramsSolution test = new GroupAnagramsSolution();
+
         // Test 1
         String[] strs1 = {"eat","tea","tan","ate","nat","bat"};
-
+        test.groupAnagrams(strs1);
+        
         // Test 2
         String[] strs2 = {""};
 
