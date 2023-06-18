@@ -12,7 +12,7 @@ public class GroupAnagramsSolution {
     public List<List<String>> groupAnagrams(String[] strs) {
         
         // Result
-        // List<List<String>> group;
+        List<List<String>> group;
         
         // Arraylist to store all inputs
         ArrayList<String> allInputs = new ArrayList<String>();
@@ -22,9 +22,11 @@ public class GroupAnagramsSolution {
             allInputs.add(string);
         }
 
-
+        // one set of anagram
+        String[] sets;
+        
         for (int i = 0; i < allInputs.size(); i++) {
-            
+
         }
 
         // String str1 = "eat";
