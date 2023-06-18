@@ -46,12 +46,12 @@ public class GroupAnagramsSolution {
         s1.sort(null);
         s2.sort(null);
         
-        // check the whole list
-        for (int i = 0; i < s1.size(); i++) {
-            
+        // check the whole list is same
+        if (s1.equals(s2)) {
+            return true;
         }
-
-        return false;
+        
+        return true;
     }        
 
     
